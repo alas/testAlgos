@@ -1,0 +1,12 @@
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\bin\Debug\net7.0\EncryptoDecryptFuncs.deps.json
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\bin\Debug\net7.0\EncryptoDecryptFuncs.dll
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\bin\Debug\net7.0\EncryptoDecryptFuncs.pdb
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.csproj.AssemblyReference.cache
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.AssemblyInfoInputs.cache
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.AssemblyInfo.cs
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.csproj.CoreCompileInputs.cache
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.dll
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\refint\EncryptoDecryptFuncs.dll
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\EncryptoDecryptFuncs.pdb
+C:\Users\Alas\Source\Repos\testAlgos\EncryptoDecryptFuncs\obj\Debug\net7.0\ref\EncryptoDecryptFuncs.dll

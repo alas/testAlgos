@@ -17,11 +17,11 @@ internal class AlgoReplace : ISecurityElement
 
     public string Decrypt(string text)
     {
-        return text.Select(x => DecryptFunc(x)).ToString();
+        return String.Join(string.Empty, text.Select(x => DecryptFunc(x)));
     }
 
     public string Encrypt(string text)
     {
-        return text.Select(x => EncryptFunc(x)).ToString();
+        return String.Join(string.Empty, text.Select(x => EncryptFunc(x)));
     }
 }

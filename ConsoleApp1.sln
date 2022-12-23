@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B426123D-66C8-4589-AE7A-48B59C2DAB2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B426123D-66C8-4589-AE7A-48B59C2DAB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptoDecryptFuncs", "EncryptoDecryptFuncs\EncryptoDecryptFuncs.csproj", "{D48CB528-7AE3-4ECA-AB86-A0B30CE1FF1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B426123D-66C8-4589-AE7A-48B59C2DAB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B426123D-66C8-4589-AE7A-48B59C2DAB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B426123D-66C8-4589-AE7A-48B59C2DAB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D48CB528-7AE3-4ECA-AB86-A0B30CE1FF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48CB528-7AE3-4ECA-AB86-A0B30CE1FF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48CB528-7AE3-4ECA-AB86-A0B30CE1FF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48CB528-7AE3-4ECA-AB86-A0B30CE1FF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

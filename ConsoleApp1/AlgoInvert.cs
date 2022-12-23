@@ -5,8 +5,9 @@ internal class AlgoInvert : ISecurityElement
 {
     private static string Implementation(string text)
     {
-        return text.Select(x => x).Reverse().ToString();
+        return new string(text.Reverse().ToArray());
     }
+
     public string Decrypt(string text)
     {
         return Implementation(text);

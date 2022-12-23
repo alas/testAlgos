@@ -4,13 +4,22 @@ var path = @"C:\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplicati
 var className = "DLL.Class1";
 dynamic assembly = DllLoader.LoadDll(path, className);
 List<String> theOrders = assembly.GetOrders();
-Func<char, char> encrypt = assembly.GetEncryptFunc();
-Func<char, char> decrypt = assembly.GetDecryptFunc();
-string input = assembly.GetInitialString();
+
+/*var theOrders = new List<string>()
+{
+    "AlgoInvert",
+    "AlgoReplace",
+    "AlgoFreeStyle",
+    "AlgoInvert",
+};*/
+var encryptDecryptClass = new EncryptoDecryptFuncs.Class1();
 
 var algoInvert = new AlgoInvert();
-var algoReplace = new AlgoReplace(encrypt, decrypt);
+var algoReplace = new AlgoReplace(encryptDecryptClass.Encrypt, encryptDecryptClass.Decrypt);
 var algoFreeStyle = new AlgoFreeStyle();
+
+Console.WriteLine("Please input a string:");
+string input = "jajaAAAmarDECobos";//Console.ReadLine();
 
 String temp = input;
 foreach (var algo in theOrders)
@@ -30,7 +39,7 @@ foreach (var algo in theOrders)
             throw new NotImplementedException($"Algorithm not implemented: {algo}");
     }
 }
-var encrypted = input;
+var encrypted = temp;
 
 theOrders.Reverse();
 foreach (var algo in theOrders)
@@ -50,7 +59,7 @@ foreach (var algo in theOrders)
             throw new NotImplementedException($"Algorithm not implemented: {algo}");
     }
 }
-var decrypted = input;
+var decrypted = temp;
 
 Console.WriteLine($"The initial string: {input}");
 Console.WriteLine($"The resulting encrypted string: {encrypted}");
