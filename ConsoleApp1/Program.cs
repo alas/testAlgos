@@ -1,17 +1,17 @@
 ﻿using ConsoleApp1;
 
-var path = @"C:\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\DLL.dll";
-var className = "DLL.Class1";
-dynamic assembly = DllLoader.LoadDll(path, className);
-List<String> theOrders = assembly.GetOrders();
+//var path = @"C:\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\DLL.dll";
+//var className = "DLL.Class1";
+//dynamic assembly = DllLoader.LoadDll(path, className);
+//List<String> theOrders = assembly.GetOrders();
 
-/*var theOrders = new List<string>()
+var theOrders = new List<string>()
 {
     "AlgoInvert",
     "AlgoReplace",
     "AlgoFreeStyle",
     "AlgoInvert",
-};*/
+};
 var encryptDecryptClass = new EncryptoDecryptFuncs.Class1();
 
 var algoInvert = new AlgoInvert();
